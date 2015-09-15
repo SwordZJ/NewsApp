@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7706" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="ZJRightCenterRow">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4Em-h5-a8E">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                    <inset key="contentEdgeInsets" minX="44" minY="0.0" maxX="0.0" maxY="0.0"/>
+                    <state key="normal" title="商城 能赚能花，土豪当家">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                </button>
+                <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="promoboard_icon_mall" translatesAutoresizingMaskIntoConstraints="NO" id="7wz-WC-Mcj">
+                    <rect key="frame" x="0.0" y="0.0" width="44" height="44"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="44" id="7di-ms-mRN"/>
+                        <constraint firstAttribute="width" constant="44" id="JyH-jW-2ek"/>
+                    </constraints>
+                </imageView>
+                <view alpha="0.29999999999999999" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vGE-W0-uaK" userLabel="分割线">
+                    <rect key="frame" x="0.0" y="43" width="320" height="1"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="1" id="uyC-NR-fyd"/>
+                    </constraints>
+                </view>
+                <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="settingcell_arrow" translatesAutoresizingMaskIntoConstraints="NO" id="att-sG-nnk">
+                    <rect key="frame" x="276" y="0.0" width="44" height="44"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="44" id="GPd-Uw-HV9"/>
+                        <constraint firstAttribute="height" constant="44" id="I3j-kN-RAX"/>
+                    </constraints>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="vGE-W0-uaK" secondAttribute="trailing" id="7fd-4o-VPI"/>
+                <constraint firstItem="vGE-W0-uaK" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="80J-w8-HYp"/>
+                <constraint firstItem="4Em-h5-a8E" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="FlE-lC-3S2"/>
+                <constraint firstItem="4Em-h5-a8E" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="Hmb-jK-oeG"/>
+                <constraint firstItem="4Em-h5-a8E" firstAttribute="centerY" secondItem="att-sG-nnk" secondAttribute="centerY" id="MKH-bF-oDd"/>
+                <constraint firstItem="4Em-h5-a8E" firstAttribute="centerY" secondItem="7wz-WC-Mcj" secondAttribute="centerY" id="WGP-5q-J8i"/>
+                <constraint firstAttribute="trailing" secondItem="att-sG-nnk" secondAttribute="trailing" id="XNF-yE-76N"/>
+                <constraint firstAttribute="bottom" secondItem="4Em-h5-a8E" secondAttribute="bottom" id="Yxj-Uy-26P"/>
+                <constraint firstItem="7wz-WC-Mcj" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="b3Z-35-vgO"/>
+                <constraint firstAttribute="bottom" secondItem="vGE-W0-uaK" secondAttribute="bottom" id="bBZ-2p-KU1"/>
+                <constraint firstAttribute="trailing" secondItem="4Em-h5-a8E" secondAttribute="trailing" id="qvY-30-h7H"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="iconView" destination="7wz-WC-Mcj" id="72g-V9-JCr"/>
+                <outlet property="titleBtn" destination="4Em-h5-a8E" id="gLT-Qi-2Vg"/>
+            </connections>
+            <point key="canvasLocation" x="210" y="208"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="promoboard_icon_mall" width="20" height="20"/>
+        <image name="settingcell_arrow" width="7" height="14"/>
+    </resources>
+</document>

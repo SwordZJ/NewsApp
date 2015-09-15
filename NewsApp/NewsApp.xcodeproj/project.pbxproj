@@ -8,12 +8,26 @@
 
 /* Begin PBXBuildFile section */
 		FF99E4981BA7F96000C04544 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FF99E4971BA7F96000C04544 /* main.m */; };
-		FF99E49B1BA7F96000C04544 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FF99E49A1BA7F96000C04544 /* AppDelegate.m */; };
-		FF99E49E1BA7F96000C04544 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF99E49D1BA7F96000C04544 /* ViewController.m */; };
-		FF99E4A11BA7F96000C04544 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF99E49F1BA7F96000C04544 /* Main.storyboard */; };
 		FF99E4A31BA7F96000C04544 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF99E4A21BA7F96000C04544 /* Images.xcassets */; };
-		FF99E4A61BA7F96000C04544 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF99E4A41BA7F96000C04544 /* LaunchScreen.xib */; };
 		FF99E4B21BA7F96000C04544 /* NewsAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FF99E4B11BA7F96000C04544 /* NewsAppTests.m */; };
+		FF99E4F81BA7F9BF00C04544 /* ZJBaseNavController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF99E4BF1BA7F9BF00C04544 /* ZJBaseNavController.m */; };
+		FF99E4F91BA7F9BF00C04544 /* ZJMainController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF99E4C11BA7F9BF00C04544 /* ZJMainController.m */; };
+		FF99E4FA1BA7F9BF00C04544 /* ZJLeftMenView.m in Sources */ = {isa = PBXBuildFile; fileRef = FF99E4C51BA7F9BF00C04544 /* ZJLeftMenView.m */; };
+		FF99E4FB1BA7F9BF00C04544 /* ZJNavgationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = FF99E4C71BA7F9BF00C04544 /* ZJNavgationBar.m */; };
+		FF99E4FC1BA7F9BF00C04544 /* ZJTitleView.m in Sources */ = {isa = PBXBuildFile; fileRef = FF99E4C91BA7F9BF00C04544 /* ZJTitleView.m */; };
+		FF99E4FD1BA7F9BF00C04544 /* ZJNewsRootController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF99E4CD1BA7F9BF00C04544 /* ZJNewsRootController.m */; };
+		FF99E4FE1BA7F9BF00C04544 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FF99E4D21BA7F9BF00C04544 /* AppDelegate.m */; };
+		FF99E5021BA7F9BF00C04544 /* UIBarButtonItem+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = FF99E4DB1BA7F9BF00C04544 /* UIBarButtonItem+Extension.m */; };
+		FF99E5031BA7F9BF00C04544 /* UIImage+Circle.m in Sources */ = {isa = PBXBuildFile; fileRef = FF99E4DD1BA7F9BF00C04544 /* UIImage+Circle.m */; };
+		FF99E5061BA7F9BF00C04544 /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = FF99E4E31BA7F9BF00C04544 /* UIView+Extension.m */; };
+		FF99E5081BA7F9BF00C04544 /* ZJReadingController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF99E4E91BA7F9BF00C04544 /* ZJReadingController.m */; };
+		FF99E5091BA7F9BF00C04544 /* ZJRightViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF99E4EF1BA7F9BF00C04544 /* ZJRightViewController.m */; };
+		FF99E50A1BA7F9BF00C04544 /* ZJRightViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF99E4F01BA7F9BF00C04544 /* ZJRightViewController.xib */; };
+		FF99E50B1BA7F9BF00C04544 /* ZJButton.m in Sources */ = {isa = PBXBuildFile; fileRef = FF99E4F41BA7F9BF00C04544 /* ZJButton.m */; };
+		FF99E50C1BA7F9BF00C04544 /* ZJRightCenterRow.m in Sources */ = {isa = PBXBuildFile; fileRef = FF99E4F61BA7F9BF00C04544 /* ZJRightCenterRow.m */; };
+		FF99E50D1BA7F9BF00C04544 /* ZJRightCenterRow.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF99E4F71BA7F9BF00C04544 /* ZJRightCenterRow.xib */; };
+		FF99E5101BA7FA6C00C04544 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF99E50F1BA7FA6C00C04544 /* Main.storyboard */; };
+		FF99E5161BA7FBC500C04544 /* UIImage+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = FF99E5151BA7FBC500C04544 /* UIImage+Extension.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,16 +44,44 @@
 		FF99E4921BA7F96000C04544 /* NewsApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NewsApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF99E4961BA7F96000C04544 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FF99E4971BA7F96000C04544 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		FF99E4991BA7F96000C04544 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		FF99E49A1BA7F96000C04544 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		FF99E49C1BA7F96000C04544 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		FF99E49D1BA7F96000C04544 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		FF99E4A01BA7F96000C04544 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FF99E4A21BA7F96000C04544 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		FF99E4A51BA7F96000C04544 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		FF99E4AB1BA7F96000C04544 /* NewsAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NewsAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF99E4B01BA7F96000C04544 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FF99E4B11BA7F96000C04544 /* NewsAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NewsAppTests.m; sourceTree = "<group>"; };
+		FF99E4BE1BA7F9BF00C04544 /* ZJBaseNavController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJBaseNavController.h; sourceTree = "<group>"; };
+		FF99E4BF1BA7F9BF00C04544 /* ZJBaseNavController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJBaseNavController.m; sourceTree = "<group>"; };
+		FF99E4C01BA7F9BF00C04544 /* ZJMainController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJMainController.h; sourceTree = "<group>"; };
+		FF99E4C11BA7F9BF00C04544 /* ZJMainController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJMainController.m; sourceTree = "<group>"; };
+		FF99E4C41BA7F9BF00C04544 /* ZJLeftMenView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJLeftMenView.h; sourceTree = "<group>"; };
+		FF99E4C51BA7F9BF00C04544 /* ZJLeftMenView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJLeftMenView.m; sourceTree = "<group>"; };
+		FF99E4C61BA7F9BF00C04544 /* ZJNavgationBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJNavgationBar.h; sourceTree = "<group>"; };
+		FF99E4C71BA7F9BF00C04544 /* ZJNavgationBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJNavgationBar.m; sourceTree = "<group>"; };
+		FF99E4C81BA7F9BF00C04544 /* ZJTitleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJTitleView.h; sourceTree = "<group>"; };
+		FF99E4C91BA7F9BF00C04544 /* ZJTitleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJTitleView.m; sourceTree = "<group>"; };
+		FF99E4CC1BA7F9BF00C04544 /* ZJNewsRootController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJNewsRootController.h; sourceTree = "<group>"; };
+		FF99E4CD1BA7F9BF00C04544 /* ZJNewsRootController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJNewsRootController.m; sourceTree = "<group>"; };
+		FF99E4D11BA7F9BF00C04544 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FF99E4D21BA7F9BF00C04544 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FF99E4DA1BA7F9BF00C04544 /* UIBarButtonItem+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+Extension.h"; sourceTree = "<group>"; };
+		FF99E4DB1BA7F9BF00C04544 /* UIBarButtonItem+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+Extension.m"; sourceTree = "<group>"; };
+		FF99E4DC1BA7F9BF00C04544 /* UIImage+Circle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Circle.h"; sourceTree = "<group>"; };
+		FF99E4DD1BA7F9BF00C04544 /* UIImage+Circle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Circle.m"; sourceTree = "<group>"; };
+		FF99E4E21BA7F9BF00C04544 /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
+		FF99E4E31BA7F9BF00C04544 /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
+		FF99E4E81BA7F9BF00C04544 /* ZJReadingController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJReadingController.h; sourceTree = "<group>"; };
+		FF99E4E91BA7F9BF00C04544 /* ZJReadingController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJReadingController.m; sourceTree = "<group>"; };
+		FF99E4EE1BA7F9BF00C04544 /* ZJRightViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJRightViewController.h; sourceTree = "<group>"; };
+		FF99E4EF1BA7F9BF00C04544 /* ZJRightViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJRightViewController.m; sourceTree = "<group>"; };
+		FF99E4F01BA7F9BF00C04544 /* ZJRightViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZJRightViewController.xib; sourceTree = "<group>"; };
+		FF99E4F31BA7F9BF00C04544 /* ZJButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJButton.h; sourceTree = "<group>"; };
+		FF99E4F41BA7F9BF00C04544 /* ZJButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJButton.m; sourceTree = "<group>"; };
+		FF99E4F51BA7F9BF00C04544 /* ZJRightCenterRow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJRightCenterRow.h; sourceTree = "<group>"; };
+		FF99E4F61BA7F9BF00C04544 /* ZJRightCenterRow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJRightCenterRow.m; sourceTree = "<group>"; };
+		FF99E4F71BA7F9BF00C04544 /* ZJRightCenterRow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZJRightCenterRow.xib; sourceTree = "<group>"; };
+		FF99E50E1BA7F9CA00C04544 /* NewsApp.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NewsApp.pch; sourceTree = "<group>"; };
+		FF99E50F1BA7FA6C00C04544 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		FF99E5141BA7FBC500C04544 /* UIImage+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Extension.h"; sourceTree = "<group>"; };
+		FF99E5151BA7FBC500C04544 /* UIImage+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Extension.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,13 +123,7 @@
 		FF99E4941BA7F96000C04544 /* NewsApp */ = {
 			isa = PBXGroup;
 			children = (
-				FF99E4991BA7F96000C04544 /* AppDelegate.h */,
-				FF99E49A1BA7F96000C04544 /* AppDelegate.m */,
-				FF99E49C1BA7F96000C04544 /* ViewController.h */,
-				FF99E49D1BA7F96000C04544 /* ViewController.m */,
-				FF99E49F1BA7F96000C04544 /* Main.storyboard */,
-				FF99E4A21BA7F96000C04544 /* Images.xcassets */,
-				FF99E4A41BA7F96000C04544 /* LaunchScreen.xib */,
+				FF99E4BB1BA7F9BF00C04544 /* Classes */,
 				FF99E4951BA7F96000C04544 /* Supporting Files */,
 			);
 			path = NewsApp;
@@ -96,6 +132,9 @@
 		FF99E4951BA7F96000C04544 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				FF99E4A21BA7F96000C04544 /* Images.xcassets */,
+				FF99E50F1BA7FA6C00C04544 /* Main.storyboard */,
+				FF99E50E1BA7F9CA00C04544 /* NewsApp.pch */,
 				FF99E4961BA7F96000C04544 /* Info.plist */,
 				FF99E4971BA7F96000C04544 /* main.m */,
 			);
@@ -117,6 +156,189 @@
 				FF99E4B01BA7F96000C04544 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FF99E4BB1BA7F9BF00C04544 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				FF99E4BC1BA7F9BF00C04544 /* Main */,
+				FF99E4CA1BA7F9BF00C04544 /* News */,
+				FF99E4E61BA7F9BF00C04544 /* Reading(订阅) */,
+				FF99E4EC1BA7F9BF00C04544 /* RightMenu */,
+				FF99E4D01BA7F9BF00C04544 /* Other */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		FF99E4BC1BA7F9BF00C04544 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				FF99E4BD1BA7F9BF00C04544 /* Controller */,
+				FF99E4C21BA7F9BF00C04544 /* Model */,
+				FF99E4C31BA7F9BF00C04544 /* View */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		FF99E4BD1BA7F9BF00C04544 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				FF99E4BE1BA7F9BF00C04544 /* ZJBaseNavController.h */,
+				FF99E4BF1BA7F9BF00C04544 /* ZJBaseNavController.m */,
+				FF99E4C01BA7F9BF00C04544 /* ZJMainController.h */,
+				FF99E4C11BA7F9BF00C04544 /* ZJMainController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		FF99E4C21BA7F9BF00C04544 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FF99E4C31BA7F9BF00C04544 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FF99E4C41BA7F9BF00C04544 /* ZJLeftMenView.h */,
+				FF99E4C51BA7F9BF00C04544 /* ZJLeftMenView.m */,
+				FF99E4C61BA7F9BF00C04544 /* ZJNavgationBar.h */,
+				FF99E4C71BA7F9BF00C04544 /* ZJNavgationBar.m */,
+				FF99E4C81BA7F9BF00C04544 /* ZJTitleView.h */,
+				FF99E4C91BA7F9BF00C04544 /* ZJTitleView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FF99E4CA1BA7F9BF00C04544 /* News */ = {
+			isa = PBXGroup;
+			children = (
+				FF99E4CB1BA7F9BF00C04544 /* Controller */,
+				FF99E4CE1BA7F9BF00C04544 /* Model */,
+				FF99E4CF1BA7F9BF00C04544 /* View */,
+			);
+			path = News;
+			sourceTree = "<group>";
+		};
+		FF99E4CB1BA7F9BF00C04544 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				FF99E4CC1BA7F9BF00C04544 /* ZJNewsRootController.h */,
+				FF99E4CD1BA7F9BF00C04544 /* ZJNewsRootController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		FF99E4CE1BA7F9BF00C04544 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FF99E4CF1BA7F9BF00C04544 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FF99E4D01BA7F9BF00C04544 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				FF99E4D11BA7F9BF00C04544 /* AppDelegate.h */,
+				FF99E4D21BA7F9BF00C04544 /* AppDelegate.m */,
+				FF99E4D31BA7F9BF00C04544 /* Category */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		FF99E4D31BA7F9BF00C04544 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				FF99E5141BA7FBC500C04544 /* UIImage+Extension.h */,
+				FF99E5151BA7FBC500C04544 /* UIImage+Extension.m */,
+				FF99E4DA1BA7F9BF00C04544 /* UIBarButtonItem+Extension.h */,
+				FF99E4DB1BA7F9BF00C04544 /* UIBarButtonItem+Extension.m */,
+				FF99E4DC1BA7F9BF00C04544 /* UIImage+Circle.h */,
+				FF99E4DD1BA7F9BF00C04544 /* UIImage+Circle.m */,
+				FF99E4E21BA7F9BF00C04544 /* UIView+Extension.h */,
+				FF99E4E31BA7F9BF00C04544 /* UIView+Extension.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		FF99E4E61BA7F9BF00C04544 /* Reading(订阅) */ = {
+			isa = PBXGroup;
+			children = (
+				FF99E4E71BA7F9BF00C04544 /* Controller */,
+				FF99E4EA1BA7F9BF00C04544 /* Model */,
+				FF99E4EB1BA7F9BF00C04544 /* View */,
+			);
+			path = "Reading(订阅)";
+			sourceTree = "<group>";
+		};
+		FF99E4E71BA7F9BF00C04544 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				FF99E4E81BA7F9BF00C04544 /* ZJReadingController.h */,
+				FF99E4E91BA7F9BF00C04544 /* ZJReadingController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		FF99E4EA1BA7F9BF00C04544 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FF99E4EB1BA7F9BF00C04544 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FF99E4EC1BA7F9BF00C04544 /* RightMenu */ = {
+			isa = PBXGroup;
+			children = (
+				FF99E4ED1BA7F9BF00C04544 /* Controller */,
+				FF99E4F11BA7F9BF00C04544 /* Model */,
+				FF99E4F21BA7F9BF00C04544 /* View */,
+			);
+			path = RightMenu;
+			sourceTree = "<group>";
+		};
+		FF99E4ED1BA7F9BF00C04544 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				FF99E4EE1BA7F9BF00C04544 /* ZJRightViewController.h */,
+				FF99E4EF1BA7F9BF00C04544 /* ZJRightViewController.m */,
+				FF99E4F01BA7F9BF00C04544 /* ZJRightViewController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		FF99E4F11BA7F9BF00C04544 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FF99E4F21BA7F9BF00C04544 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FF99E4F31BA7F9BF00C04544 /* ZJButton.h */,
+				FF99E4F41BA7F9BF00C04544 /* ZJButton.m */,
+				FF99E4F51BA7F9BF00C04544 /* ZJRightCenterRow.h */,
+				FF99E4F61BA7F9BF00C04544 /* ZJRightCenterRow.m */,
+				FF99E4F71BA7F9BF00C04544 /* ZJRightCenterRow.xib */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,9 +421,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FF99E4A11BA7F96000C04544 /* Main.storyboard in Resources */,
-				FF99E4A61BA7F96000C04544 /* LaunchScreen.xib in Resources */,
 				FF99E4A31BA7F96000C04544 /* Images.xcassets in Resources */,
+				FF99E50D1BA7F9BF00C04544 /* ZJRightCenterRow.xib in Resources */,
+				FF99E50A1BA7F9BF00C04544 /* ZJRightViewController.xib in Resources */,
+				FF99E5101BA7FA6C00C04544 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,9 +442,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FF99E49E1BA7F96000C04544 /* ViewController.m in Sources */,
-				FF99E49B1BA7F96000C04544 /* AppDelegate.m in Sources */,
+				FF99E5061BA7F9BF00C04544 /* UIView+Extension.m in Sources */,
+				FF99E4FA1BA7F9BF00C04544 /* ZJLeftMenView.m in Sources */,
+				FF99E5031BA7F9BF00C04544 /* UIImage+Circle.m in Sources */,
+				FF99E50B1BA7F9BF00C04544 /* ZJButton.m in Sources */,
+				FF99E4FC1BA7F9BF00C04544 /* ZJTitleView.m in Sources */,
+				FF99E4F91BA7F9BF00C04544 /* ZJMainController.m in Sources */,
+				FF99E4F81BA7F9BF00C04544 /* ZJBaseNavController.m in Sources */,
+				FF99E5161BA7FBC500C04544 /* UIImage+Extension.m in Sources */,
+				FF99E4FE1BA7F9BF00C04544 /* AppDelegate.m in Sources */,
+				FF99E50C1BA7F9BF00C04544 /* ZJRightCenterRow.m in Sources */,
+				FF99E5021BA7F9BF00C04544 /* UIBarButtonItem+Extension.m in Sources */,
+				FF99E5081BA7F9BF00C04544 /* ZJReadingController.m in Sources */,
+				FF99E5091BA7F9BF00C04544 /* ZJRightViewController.m in Sources */,
 				FF99E4981BA7F96000C04544 /* main.m in Sources */,
+				FF99E4FD1BA7F9BF00C04544 /* ZJNewsRootController.m in Sources */,
+				FF99E4FB1BA7F9BF00C04544 /* ZJNavgationBar.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -242,25 +478,6 @@
 			targetProxy = FF99E4AC1BA7F96000C04544 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		FF99E49F1BA7F96000C04544 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				FF99E4A01BA7F96000C04544 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		FF99E4A41BA7F96000C04544 /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				FF99E4A51BA7F96000C04544 /* Base */,
-			);
-			name = LaunchScreen.xib;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		FF99E4B31BA7F96000C04544 /* Debug */ = {
@@ -349,6 +566,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PREFIX_HEADER = NewsApp/NewsApp.pch;
 				INFOPLIST_FILE = NewsApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -359,6 +578,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PREFIX_HEADER = NewsApp/NewsApp.pch;
 				INFOPLIST_FILE = NewsApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";

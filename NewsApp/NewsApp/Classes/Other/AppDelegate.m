@@ -1,8 +1,8 @@
 //
 //  AppDelegate.m
-//  NewsApp
+//  仿网易新闻抽屉视图
 //
-//  Created by liuzhouji on 15/9/15.
+//  Created by liuzhouji on 15/8/16.
 //  Copyright (c) 2015年 ZJ. All rights reserved.
 //
 

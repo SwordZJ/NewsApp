@@ -1,0 +1,53 @@
+//
+//  NewsApp.pch
+//  NewsApp.pch
+//
+//  Created by liuzhouji on 15/8/16.
+//  Copyright (c) 2015年 ZJ. All rights reserved.
+//
+
+#ifndef ____________________pch
+#define ____________________pch
+
+#ifdef __OBJC__
+
+#import "UIBarButtonItem+Extension.h"
+#import "UIView+Extension.h"
+#import "UIImage+Circle.h"
+#import "UIImage+Extension.h"
+
+
+// 屏幕尺寸
+#define kScreenBounds [UIScreen mainScreen].bounds
+#define kScreenWidth [UIScreen mainScreen].bounds.size.width
+#define kScreenHeight [UIScreen mainScreen].bounds.size.height
+
+// 颜色
+#define ZJColor(r, g, b) [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:1.0]
+// 随机色
+#define ZJRandomColor ZJColor(arc4random_uniform(256), arc4random_uniform(256), arc4random_uniform(256))
+// 取带透明度的颜色
+#define ZJColorRGBA(r, g, b, a) [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:a]
+
+// 自动提示宏
+#define ZJkeyPath(objc, keyPath) @(((void)objc.keyPath, #keyPath))
+
+//自定义日志输入
+#ifdef DEBUG
+//__VA_ARGS__ 可变参数,括号里的参数可以多个
+#define  ZJLog(...) NSLog(__VA_ARGS__)
+#define  ZJLogFunc ZJLog(@"%s %d",__func__,__LINE__)
+#else
+#define  ZJLog(...)
+#endif
+
+// 弱引用
+#define ZJWeakSelf __weak typeof(self) weakSelf = self
+
+
+// 将获取到的文件写到plist文件中
+#define ZJWriteToFile(data, name) [data writeToFile:[NSString stringWithFormat:@"/Users/liuzhouji/Desktop/%@.plist",name] atomically:YES]
+
+#endif
+
+#endif
