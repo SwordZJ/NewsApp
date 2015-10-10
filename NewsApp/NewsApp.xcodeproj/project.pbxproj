@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FF3932581BBCDA5D00C1EB58 /* ZJSwitchTagNavView.m in Sources */ = {isa = PBXBuildFile; fileRef = FF3932571BBCDA5D00C1EB58 /* ZJSwitchTagNavView.m */; settings = {ASSET_TAGS = (); }; };
+		FF39325A1BBCDA6B00C1EB58 /* ZJSwitchTagNavView.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF3932591BBCDA6B00C1EB58 /* ZJSwitchTagNavView.xib */; settings = {ASSET_TAGS = (); }; };
+		FF93505E1BBAAD2600157CD8 /* ZJTitleTagsView.m in Sources */ = {isa = PBXBuildFile; fileRef = FF93505D1BBAAD2600157CD8 /* ZJTitleTagsView.m */; settings = {ASSET_TAGS = (); }; };
+		FF9350611BBAAD3300157CD8 /* ZJTagTitleBtn.m in Sources */ = {isa = PBXBuildFile; fileRef = FF9350601BBAAD3300157CD8 /* ZJTagTitleBtn.m */; settings = {ASSET_TAGS = (); }; };
 		FF99E4981BA7F96000C04544 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FF99E4971BA7F96000C04544 /* main.m */; };
 		FF99E4A31BA7F96000C04544 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF99E4A21BA7F96000C04544 /* Images.xcassets */; };
 		FF99E4B21BA7F96000C04544 /* NewsAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FF99E4B11BA7F96000C04544 /* NewsAppTests.m */; };
@@ -41,6 +45,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FF3932561BBCDA5D00C1EB58 /* ZJSwitchTagNavView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJSwitchTagNavView.h; sourceTree = "<group>"; };
+		FF3932571BBCDA5D00C1EB58 /* ZJSwitchTagNavView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJSwitchTagNavView.m; sourceTree = "<group>"; };
+		FF3932591BBCDA6B00C1EB58 /* ZJSwitchTagNavView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZJSwitchTagNavView.xib; sourceTree = "<group>"; };
+		FF93505C1BBAAD2600157CD8 /* ZJTitleTagsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJTitleTagsView.h; sourceTree = "<group>"; };
+		FF93505D1BBAAD2600157CD8 /* ZJTitleTagsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJTitleTagsView.m; sourceTree = "<group>"; };
+		FF93505F1BBAAD3300157CD8 /* ZJTagTitleBtn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJTagTitleBtn.h; sourceTree = "<group>"; };
+		FF9350601BBAAD3300157CD8 /* ZJTagTitleBtn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJTagTitleBtn.m; sourceTree = "<group>"; };
 		FF99E4921BA7F96000C04544 /* NewsApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NewsApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF99E4961BA7F96000C04544 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FF99E4971BA7F96000C04544 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -240,6 +251,13 @@
 		FF99E4CF1BA7F9BF00C04544 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				FF93505F1BBAAD3300157CD8 /* ZJTagTitleBtn.h */,
+				FF9350601BBAAD3300157CD8 /* ZJTagTitleBtn.m */,
+				FF93505C1BBAAD2600157CD8 /* ZJTitleTagsView.h */,
+				FF93505D1BBAAD2600157CD8 /* ZJTitleTagsView.m */,
+				FF3932561BBCDA5D00C1EB58 /* ZJSwitchTagNavView.h */,
+				FF3932571BBCDA5D00C1EB58 /* ZJSwitchTagNavView.m */,
+				FF3932591BBCDA6B00C1EB58 /* ZJSwitchTagNavView.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -390,6 +408,7 @@
 				TargetAttributes = {
 					FF99E4911BA7F96000C04544 = {
 						CreatedOnToolsVersion = 6.4;
+						DevelopmentTeam = JKYWZLHWW9;
 					};
 					FF99E4AA1BA7F96000C04544 = {
 						CreatedOnToolsVersion = 6.4;
@@ -423,6 +442,7 @@
 			files = (
 				FF99E4A31BA7F96000C04544 /* Images.xcassets in Resources */,
 				FF99E50D1BA7F9BF00C04544 /* ZJRightCenterRow.xib in Resources */,
+				FF39325A1BBCDA6B00C1EB58 /* ZJSwitchTagNavView.xib in Resources */,
 				FF99E50A1BA7F9BF00C04544 /* ZJRightViewController.xib in Resources */,
 				FF99E5101BA7FA6C00C04544 /* Main.storyboard in Resources */,
 			);
@@ -442,8 +462,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FF3932581BBCDA5D00C1EB58 /* ZJSwitchTagNavView.m in Sources */,
 				FF99E5061BA7F9BF00C04544 /* UIView+Extension.m in Sources */,
 				FF99E4FA1BA7F9BF00C04544 /* ZJLeftMenView.m in Sources */,
+				FF9350611BBAAD3300157CD8 /* ZJTagTitleBtn.m in Sources */,
+				FF93505E1BBAAD2600157CD8 /* ZJTitleTagsView.m in Sources */,
 				FF99E5031BA7F9BF00C04544 /* UIImage+Circle.m in Sources */,
 				FF99E50B1BA7F9BF00C04544 /* ZJButton.m in Sources */,
 				FF99E4FC1BA7F9BF00C04544 /* ZJTitleView.m in Sources */,
@@ -567,10 +590,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PREFIX_HEADER = NewsApp/NewsApp.pch;
 				INFOPLIST_FILE = NewsApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -579,10 +605,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PREFIX_HEADER = NewsApp/NewsApp.pch;
 				INFOPLIST_FILE = NewsApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -639,6 +668,7 @@
 				FF99E4B71BA7F96000C04544 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FF99E4B81BA7F96000C04544 /* Build configuration list for PBXNativeTarget "NewsAppTests" */ = {
 			isa = XCConfigurationList;
@@ -647,6 +677,7 @@
 				FF99E4BA1BA7F96000C04544 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
